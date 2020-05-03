@@ -1,8 +1,8 @@
 """
 CTEC 121
-<your name>
-<assignment/lab name>
-<assignment/lab description
+Robert Ballenger
+Module 3 Lab 1
+<assignment/lab description>
 """
 
 """ IPO template
