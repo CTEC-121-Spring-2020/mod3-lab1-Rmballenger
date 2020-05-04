@@ -12,6 +12,8 @@ Output: return value and description
 """
 
 def main():
+
+    """
     # conditional expressions
 
     # literal
@@ -79,5 +81,30 @@ def main():
             print(i, "is even")
         else:
             print(i, "is odd")
+    print()
 
+    # alphabetize names
+    name = "Bill"
+    firstLetterofName = "B"
+
+    print("Multi-way if example")
+    if firstLetterofName == "A":
+        print(name)
+    elif firstLetterofName == "B":
+        print(name)
+    elif firstLetterofName == "C":
+        print(name)
+    # ...
+    elif firstLetterofName == "Y":
+        print(name)
+    else:
+        print(name)
+    print()
+    """
+
+    try:
+        print(4/0)
+    except:
+        print("\nThere was a divide by zero error. Exiting\n")
+        exit()
 main()    
